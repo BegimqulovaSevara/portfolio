@@ -73,13 +73,40 @@ select:-webkit-autofill:focus {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
   padding-left: 50px;
   padding-right: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* SITE HEADER */
+.site-header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.site-header__container {
+  display: flex;
+  align-items: center;
+}
+.site-header__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: contain;
+  margin-right: 40px;
+}
+.site-header__info {
+  flex-grow: 1;
+}
+.site-header__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.site-header__subtitile {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
 
 /* MAIN-CONTENT */
 .main-content {
@@ -95,3 +122,5 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
 }
+
+
