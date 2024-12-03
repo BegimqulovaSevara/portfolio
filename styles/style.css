@@ -107,7 +107,9 @@ select:-webkit-autofill:focus {
   margin-top: 0;
   margin-bottom: 15px;
 }
-
+.site-header a {
+  text-decoration: none;
+}
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
